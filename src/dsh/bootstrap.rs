@@ -85,9 +85,9 @@ impl DshConfig {
 }
 
 pub(crate) enum DshCall<'a> {
-    /// Call to retreive distinguished name.
+    /// Call to retrieve distinguished name.
     Dn(&'a DshConfig),
-    /// Call to retreive datastreams.json.
+    /// Call to retrieve datastreams.json.
     Datastream(&'a DshConfig),
     /// Call to post the certificate signing request.
     CertificateSignRequest {
